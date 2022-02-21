@@ -1,0 +1,16 @@
+{
+    "name": "theme",
+    "displayName": "Theme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "dracula-theme.theme-dracula", 
+        "PKief.material-icon-theme"
+    ]
+}
