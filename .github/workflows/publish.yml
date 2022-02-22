@@ -9,8 +9,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
-          npm install
           cd java
+          npm install
       - uses: lannonbr/vsce-action@master
         with:
           args: "publish -p $VSCE_TOKEN"
