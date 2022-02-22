@@ -10,13 +10,10 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           cd java
-          npm install
-      - uses: lannonbr/vsce-action@master
-      - run: cd java
-        with:
-          args: "publish -p $VSCE_TOKEN"
-        env:
-          VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
+          npm install -g vsce
+          vsce package
+          publish -p ${{ secrets.VSCE_TOKEN }}
+
 
   # theme:
   #   runs-on: ubuntu-latest
