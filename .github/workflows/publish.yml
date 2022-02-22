@@ -8,9 +8,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
+      - name: Install VSCE
+        run: npm install -g vsce
+
+      - name: Publish Java
       - run: |
           cd java
-          npm install -g vsce
+          vsce package
+          vsce publish -p ${{ secrets.VSCE_TOKEN }}
+
+      - name: Publish Theme
+      - run: |
+          cd theme/
           vsce package
           vsce publish -p ${{ secrets.VSCE_TOKEN }}
 

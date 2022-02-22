@@ -1,13 +1,22 @@
 {
-    "name": "theme",
-    "displayName": "Theme",
-    "description": "",
-    "version": "0.0.1",
+    "name": "guilhermestella-theme-ext",
+    "displayName": "Theme Extension Pack",
+    "description": "My Favourite Themes, Icons, etc...",
+    "version": "0.0.2",
+    "icon": "theme-icon.png",
+    "publisher": "guilhermestella",
+    "repository": "https://github.com/guilhermestella/vscode-extensions",
     "engines": {
         "vscode": "^1.64.0"
     },
     "categories": [
         "Extension Packs"
+    ],
+    "keywords": [
+        "Themes",
+        "Theme",
+        "Colors",
+        "Icons"
     ],
     "extensionPack": [ 
         "dracula-theme.theme-dracula", 
