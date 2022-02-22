@@ -4,6 +4,6 @@
 2. Run ```yo code```
 3. Create a New Extension Pack
 4. Go to Extension directory
-5. Run ```vsce package```
+5. Run ```vsce package && vsce login guilhermestella```. Password: token do azure guilhermestella
 6. Push files to Repo
 7. Install extensions from **.vsix** file

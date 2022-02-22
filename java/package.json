@@ -1,13 +1,24 @@
 {
-    "name": "java",
+    "name": "guilhermestella-java-ext",
     "displayName": "Java Extension Pack",
-    "description": "",
-    "version": "0.0.1",
+    "description": "Most popular Java and Spring Extensions",
+    "version": "0.0.2",
+    "icon": "javaspring.png",
+    "publisher": "guilhermestella",
+    "repository": "https://github.com/guilhermestella/vscode-extensions",
+
     "engines": {
         "vscode": "^1.64.0"
     },
     "categories": [
         "Extension Packs"
+    ],
+    "keywords": [
+        "Java",
+        "Spring",
+        "Maven",
+        "JUnit",
+        "Spring-Boot"
     ],
     "extensionPack": [ 
         "GabrielBB.vscode-lombok", 
