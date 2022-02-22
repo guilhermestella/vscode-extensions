@@ -2,7 +2,7 @@
     "name": "guilhermestella-java-ext",
     "displayName": "Java Extension Pack",
     "description": "Most popular Java and Spring Extensions",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "icon": "javaspring.png",
     "publisher": "guilhermestella",
     "repository": "https://github.com/guilhermestella/vscode-extensions",

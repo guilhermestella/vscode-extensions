@@ -2,7 +2,7 @@
     "name": "guilhermestella-theme-ext",
     "displayName": "Theme Extension Pack",
     "description": "My Favourite Themes, Icons, etc...",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "icon": "theme-icon.png",
     "publisher": "guilhermestella",
     "repository": "https://github.com/guilhermestella/vscode-extensions",
