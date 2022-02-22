@@ -12,7 +12,7 @@ jobs:
           cd java
           npm install -g vsce
           vsce package
-          publish -p ${{ secrets.VSCE_TOKEN }}
+          vsce publish -p ${{ secrets.VSCE_TOKEN }}
 
 
   # theme:
