@@ -25,17 +25,3 @@ jobs:
           cd theme/
           vsce package
           vsce publish -p ${{ secrets.VSCE_TOKEN }}
-
-
-  # theme:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: actions/checkout@v2
-  #     - run: |
-  #         npm install
-  #         cd theme
-  #     - uses: lannonbr/vsce-action@master
-  #       with:
-  #         args: "publish -p $VSCE_TOKEN"
-  #       env:
-  #         VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
