@@ -13,13 +13,13 @@ jobs:
         run: npm install -g vsce
 
       - name: Publish Java
-      - run: |
+        run: |
           cd java
           vsce package
           vsce publish -p ${{ secrets.VSCE_TOKEN }}
 
       - name: Publish Theme
-      - run: |
+        run: |
           cd theme/
           vsce package
           vsce publish -p ${{ secrets.VSCE_TOKEN }}
