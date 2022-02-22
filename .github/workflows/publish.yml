@@ -12,6 +12,7 @@ jobs:
           cd java
           npm install
       - uses: lannonbr/vsce-action@master
+        run: cd java
         with:
           args: "publish -p $VSCE_TOKEN"
         env:
