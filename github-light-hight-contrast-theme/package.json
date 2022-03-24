@@ -2,7 +2,7 @@
     "name": "github-light-hight-contrast-theme",
     "displayName": "Github Light Hight Contrast Theme",
     "description": "",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "guilhermestella",
     "icon": "github_icon.png",
     "repository": "https://github.com/guilhermestella/vscode-extensions",
@@ -22,7 +22,7 @@
             {
                 "label": "Github Light High Contrast",
                 "uiTheme": "vs",
-                "path": "./themes/github_light_hc.jsonc"
+                "path": "./themes/github_light_hc.json"
             }
         ]
     }
