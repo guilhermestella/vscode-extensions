@@ -1,6 +1,6 @@
 {
-	"$schema": "vscode://schemas/color-theme",
-	"type": "light",
+	"name": "GitHub Light High Contrast",
+	"type": "hc",
 	"colors": {
 		"activityBar.activeBorder": "#fd8c73",
 		"activityBar.background": "#ffffff",
