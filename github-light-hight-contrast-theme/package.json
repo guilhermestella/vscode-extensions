@@ -3,6 +3,7 @@
     "displayName": "Github Light Hight Contrast Theme",
     "description": "",
     "version": "0.0.1",
+    "publisher": "guilhermestella",
     "icon": "github_icon.png",
     "repository": "https://github.com/guilhermestella/vscode-extensions",
     "engines": {
