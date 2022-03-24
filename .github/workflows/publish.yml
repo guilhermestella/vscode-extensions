@@ -12,16 +12,23 @@ jobs:
       - name: Install VSCE
         run: npm install -g vsce
 
-      - name: Publish Java
+      - name: Publish Java Extension Pack
         continue-on-error: true
         run: |
           cd java
           vsce package
           vsce publish -p ${{ secrets.VSCE_TOKEN }}
 
-      - name: Publish Theme
+      - name: Publish Theme Extension Pack
         continue-on-error: true
         run: |
           cd theme/
+          vsce package
+          vsce publish -p ${{ secrets.VSCE_TOKEN }}
+
+      - name: Publish Github Light Theme
+        continue-on-error: true
+        run: |
+          cd github-light-hight-contrast-theme/
           vsce package
           vsce publish -p ${{ secrets.VSCE_TOKEN }}
