@@ -1,10 +1,10 @@
 {
     "name": "github-light-hight-contrast-theme",
     "displayName": "Github Light Hight Contrast Theme",
-    "description": "",
-    "version": "0.0.3",
+    "description": "This is a Light Theme from Github, but with High Contrast",
+    "version": "0.0.4",
     "publisher": "guilhermestella",
-    "icon": "github_icon.png",
+    "icon": "logo.png",
     "repository": "https://github.com/guilhermestella/vscode-extensions",
     "engines": {
         "vscode": "^1.65.0"

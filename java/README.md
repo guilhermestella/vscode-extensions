@@ -1,5 +1,10 @@
 # Java + Spring Extension Pack
 
+## Before you use it!
+This package is for my only and personal use. If you want to use it, be aware
+that it can change drastically any time!
+
+
 ## Extensions Included
 
 * [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack) - Java Extension Pack is a collection of popular extensions that can help write, test and debug Java applications in Visual Studio Code. 

@@ -1,8 +1,8 @@
 {
     "name": "guilhermestella-theme-ext",
     "displayName": "Theme Extension Pack",
-    "description": "My Favourite Themes, Icons, etc...",
-    "version": "0.0.3",
+    "description": "This package contains my favourite themes. It may change!",
+    "version": "0.0.4",
     "icon": "theme-icon.png",
     "publisher": "guilhermestella",
     "repository": "https://github.com/guilhermestella/vscode-extensions",
@@ -19,7 +19,7 @@
         "Icons"
     ],
     "extensionPack": [ 
-        "dracula-theme.theme-dracula", 
+        "guilhermestella.github-light-hight-contrast-theme", 
         "PKief.material-icon-theme"
     ]
 }
