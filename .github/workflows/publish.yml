@@ -26,6 +26,13 @@ jobs:
           vsce package
           vsce publish -p ${{ secrets.VSCE_TOKEN }}
 
+      - name: Publish Dark Theme Extension Pack
+        continue-on-error: true
+        run: |
+          cd theme-dark/
+          vsce package
+          vsce publish -p ${{ secrets.VSCE_TOKEN }}
+
       - name: Publish Github Light Theme
         continue-on-error: true
         run: |

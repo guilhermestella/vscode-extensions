@@ -1,0 +1,25 @@
+{
+    "name": "guilhermestella-theme-dark-ext",
+    "displayName": "Dark Theme Extension Pack",
+    "description": "This package contains my favourite themes. It may change!",
+    "version": "0.0.1",
+    "icon": "theme-icon.png",
+    "publisher": "guilhermestella",
+    "repository": "https://github.com/guilhermestella/vscode-extensions",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "keywords": [
+        "Themes",
+        "Theme",
+        "Colors",
+        "Icons"
+    ],
+    "extensionPack": [ 
+        "dracula-theme.theme-dracula", 
+        "PKief.material-icon-theme"
+    ]
+}
