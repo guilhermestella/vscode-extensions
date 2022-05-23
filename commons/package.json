@@ -1,0 +1,22 @@
+{
+    "name": "guilhermestella-commons-ext",
+    "displayName": "Commons Extension Pack",
+    "description": "This package contains some of my commons extensions. It may change!",
+    "version": "0.0.1",
+    "icon": "logo.png",
+    "publisher": "guilhermestella",
+    "repository": "https://github.com/guilhermestella/vscode-extensions",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "keywords": [
+        "Commons",
+        "Extensions"
+    ],
+    "extensionPack": [ 
+        "rebornix.toggle"
+    ]
+}

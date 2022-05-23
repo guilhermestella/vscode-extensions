@@ -4,7 +4,7 @@ on:
     branches: [ main ]
 
 jobs:
-  java:
+  package-and-publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -30,6 +30,13 @@ jobs:
         continue-on-error: true
         run: |
           cd theme-dark/
+          vsce package
+          vsce publish -p ${{ secrets.VSCE_TOKEN }}
+
+      - name: Publish Commons Extensions Extension Pack
+        continue-on-error: true
+        run: |
+          cd commons/
           vsce package
           vsce publish -p ${{ secrets.VSCE_TOKEN }}
 
