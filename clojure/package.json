@@ -1,5 +1,5 @@
 {
-    "name": "guilhermestella-java-ext",
+    "name": "guilhermestella-clojure-ext",
     "displayName": "Clojure Extension Pack",
     "description": "This package contains my favourite Clojure Extensions. It may change!",
     "version": "0.0.1",
