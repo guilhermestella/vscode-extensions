@@ -1,0 +1,21 @@
+{
+    "name": "guilhermestella-java-ext",
+    "displayName": "Clojure Extension Pack",
+    "description": "This package contains my favourite Clojure Extensions. It may change!",
+    "version": "0.0.1",
+    "icon": "logo.png",
+    "publisher": "guilhermestella",
+    "repository": "https://github.com/guilhermestella/vscode-extensions",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "keywords": [
+        "Clojure"
+    ],
+    "extensionPack": [ 
+        "betterthantomorrow.calva"
+    ]
+}

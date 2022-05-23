@@ -40,6 +40,13 @@ jobs:
           vsce package
           vsce publish -p ${{ secrets.VSCE_TOKEN }}
 
+      - name: Publish Clojure Extension Pack
+        continue-on-error: true
+        run: |
+          cd clojure/
+          vsce package
+          vsce publish -p ${{ secrets.VSCE_TOKEN }}
+
       - name: Publish Github Light Theme
         continue-on-error: true
         run: |
