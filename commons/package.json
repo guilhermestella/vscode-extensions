@@ -2,7 +2,7 @@
     "name": "guilhermestella-commons-ext",
     "displayName": "Commons Extension Pack",
     "description": "This package contains some of my commons extensions. It may change!",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "icon": "logo.png",
     "publisher": "guilhermestella",
     "repository": "https://github.com/guilhermestella/vscode-extensions",
@@ -17,6 +17,8 @@
         "Extensions"
     ],
     "extensionPack": [ 
-        "rebornix.toggle"
+        "rebornix.toggle",
+        "streetsidesoftware.code-spell-checker",
+        "shardulm94.trailing-spaces"
     ]
 }
